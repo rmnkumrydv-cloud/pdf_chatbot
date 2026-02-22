@@ -4,8 +4,8 @@ from PyPDF2 import PdfReader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.memory import ConversationBufferMemory
-from langchain.chains import ConversationalRetrievalChain
+from langchain_community.memory import ConversationBufferMemory
+from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
 from langchain.callbacks.base import BaseCallbackHandler
 import os
