@@ -1,11 +1,9 @@
 streamlit
-PyPDF2
+pypdf
 langchain
-python-dotenv
-faiss-cpu
-huggingface-hub
-sentence-transformers
-InstructorEmbedding
 langchain-community
-huggingface-hub
 langchain-groq
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+python-dotenv
